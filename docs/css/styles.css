@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header {
+    background-color: #032b54;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0; 
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: #f8f9fa;
+    padding: 10px 0; /*El padding aquí es más grande para que los bordes estén separados del propio texto*/
+    border-bottom: 2px solid #032b54;
+}
+
+nav a {
+    color: #032b54;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+/*El display flex se utiliza para que los elementos se distribuyan correctamente*/
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.left img {
+    max-width: 200px;
+    height: auto;
+    margin-left: -50px; 
+}
+
+.right img {
+    max-width: 150px;
+    height: auto;
+    margin-right: -50px; 
+}
+
+.content {
+    text-align: center;
+    flex: 1;
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+}
+
+/*A los headers los iré marcando con números*/
+h1 {
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #032b54;
+}
+
+/*El siguiente estilo lo utilizo para los párrafos normales*/
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/*Este estilo lo utilizo para cuando uso links*/
+a {
+    color: #032b54;
+    font-weight: bold;
+}
+
+/*Este estilo subraya las palabras*/
+a:hover {
+    text-decoration: underline;
+}
+
+/*Para añadir los logos encima del footer*/
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #032b54; 
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.social-media a img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease; 
+}
+/*Tanto las transiciones como los hovers me los ha enseñado mi hermano*/
+.social-media a img:hover {
+    transform: scale(1.2); 
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: px 0;
+    position: relative;
+    width: 100%;
+}
