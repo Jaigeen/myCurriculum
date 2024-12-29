@@ -43,7 +43,7 @@ main {
     justify-content: center;
     align-items: center;
 }
-
+/*Lo utilizo para colocarlo como la "caja" exterior en los textos, para que estén centrados*/
 .layout {
     display: flex;
     justify-content: space-between;
@@ -66,6 +66,12 @@ main {
     margin-right: -50px; 
 }
 
+.center img {
+    max-width: 150px;
+    height: auto;
+    align-items: center; 
+}
+
 .content {
     text-align: center;
     flex: 1;
@@ -85,6 +91,7 @@ h1 {
 h2 {
     margin-bottom: 10px;
     color: #032b54;
+    text-align: center;
 }
 
 /*El siguiente estilo lo utilizo para los párrafos normales*/
