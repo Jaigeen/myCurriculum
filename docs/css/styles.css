@@ -116,7 +116,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background-color: #032b54; 
+    background-color: #43505e; 
     padding: 20px;
     margin-top: 20px;
 }
@@ -133,7 +133,7 @@ a:hover {
 }
 
 footer {
-    background-color: #333;
+    background-color: #032b54;
     color: white;
     text-align: center;
     padding: px 0;
@@ -255,4 +255,31 @@ footer {
 
 .car:hover {
     transform: scale(1.05); 
+}
+
+/*--------------------------------------------------------------------------*/
+/* Sub-navigation for Degree */
+.sub-nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: #032b54;
+    padding: 10px 0;
+}
+
+.sub-nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.sub-nav a:hover {
+    color: #007BFF;
+}
+/*Linea debajo de los cursos, estética pura*/
+.divider {
+    border-top: 2px solid #032b54;
+    margin: 20px auto;
+    width: 90%;
 }

@@ -6,3 +6,4 @@
 6- Contact section finished. 
 7- Styles for garage topic created. 
 8- Topic section finished. 
+9- Degree and first year finished. As degree depends on its internal subgroups, I have decided to commit both at the same time so that the changes fit together. 
