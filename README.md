@@ -4,3 +4,5 @@
 4- About section finished.  
 5- Styles for contact section created. 
 6- Contact section finished. 
+7- Styles for garage topic created. 
+8- Topic section finished. 
