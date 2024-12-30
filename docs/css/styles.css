@@ -160,6 +160,10 @@ footer {
     border: 3px solid #032b54; 
 }
 
+.contact-form a{
+    color: white
+}
+
 .contact-form .form-group {
     margin-bottom: 15px; 
     display: flex;
@@ -195,13 +199,14 @@ footer {
     width: 100%;
     padding: 10px;
     background-color: #032b54;
-    color: white;
+    color: #ffffff;
     font-weight: bold;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
 
 .contact-form button:hover {
     background-color: #032b54;
