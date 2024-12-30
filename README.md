@@ -9,3 +9,4 @@
 9- Degree and first year finished. As degree depends on its internal subgroups, I have decided to commit both at the same time so that the changes fit together. 
 10- Since the other courses contain practically the same code, I have reused the first year's code for the others. That is why I have committed all three html files at the same time. 
 11- Second, third and fourth year done! 
+12- Fundamentals section done.
