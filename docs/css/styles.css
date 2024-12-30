@@ -273,7 +273,7 @@ footer {
     text-decoration: none;
     transition: color 0.3s ease;
 }
-
+/*Uso otro tono de azul, porque sino, al pasar el ratón, no se podría distinguir con el fondo*/
 .sub-nav a:hover {
     color: #007BFF;
 }
