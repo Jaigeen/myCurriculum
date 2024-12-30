@@ -283,3 +283,21 @@ footer {
     margin: 20px auto;
     width: 90%;
 }
+/*------------------------------------------------------------------------------------------*/
+/* Network part*/
+.peer-links {
+    padding: 0;
+    text-align: center;
+}
+/*Diseño del texto*/
+.peer-links a {
+    color: #032b54;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+/*Cuando pasas el ratón se subraya solo*/
+.peer-links a:hover {
+    color: #032b54;
+    text-decoration: underline;
+}
